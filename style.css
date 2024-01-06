@@ -290,6 +290,7 @@ body {
   border-radius: 0.6rem;
   border: none;
   cursor: pointer;
+  /* display: none; */
 }
 .page .episodes .ep-blocks .block .content .info .view-button {
   width: 20.8rem;
@@ -575,7 +576,10 @@ body {
   height: 3.2rem;
   cursor: pointer;
 }
-@media (max-width: 2560px) { html { font-size: 60%; }}
+@media (max-width: 2560px) { html { font-size: 60%; }
+  .page .episodes .ep-blocks .block .content .info .theme-mobile {
+    display: none;
+  }}
 @media (max-width: 1920px) { html { font-size: 50%; }}
 @media (max-width: 1660px) { html { font-size: 45%; }}
 @media (max-width: 1480px) { html { font-size: 40%; }}
@@ -602,7 +606,6 @@ body {
 }
 @media (max-width: 920px) {
   .page .header {
-    /* padding: 0rem 10rem; */
     display: flex;
     justify-content: center;
   }
